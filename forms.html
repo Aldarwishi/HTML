@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>The form element</h1>
+
+    <form action="/action_page.php">
+      <label for="fname">Email:</label>
+      <br />
+
+      <input type="text" id="fname" name="fname" /><br /><br />
+      <label for="lname">password:</label>
+      <br />
+      <input type="password" />
+      <br />
+      <br />
+      <input type="submit" value="Submit" />
+      <br />
+      <br />
+      <label for="fname">Age:</label>
+      <br />
+      <input type="date" />
+      <br />
+      <br />
+      <label for="lname">Tell us a little about yourself:</label>
+      <br />
+      <textarea
+        rows="7"
+        cols="70"
+        id="typeform"
+        class="text-area field__input"
+        name="contact[Comment]"
+        spellcheck="false"
+      ></textarea>
+      <br />
+      <br />
+      <input type="checkbox" />
+      <label for="lname"
+        >I agree to the
+        <a href="https://www.google.co.il/">terms of service</a></label
+      >
+      <br />
+      <br />
+      <button type="button" onclick="alert('Hello world!')">Sign up</button>
+    </form>
+  </body>
+</html>
